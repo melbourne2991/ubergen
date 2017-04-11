@@ -1,0 +1,25 @@
+{
+  "name": "ubergen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ubergen": "./bin/cli.js",
+    "ugen": "./bin/cli.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^4.16.0",
+    "mkdirp": "^0.5.1",
+    "yargs": "^5.0.0",
+    "yargs-parser": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=6.9.5"
+  }
+}
